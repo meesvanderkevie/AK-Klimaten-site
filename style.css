@@ -15,7 +15,12 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 7px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.img-centered:hover {
+    opacity: 0.7;
 }
 
 h2 {
@@ -23,4 +28,30 @@ h2 {
   font-weight: semi-bold;
   font-size: 2rem;
   text-align: center;
+}
+
+.img-normal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #12acff;
+    border-radius: 7px;
+    border: 1px solid #12acff;
+}
+
+a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #005582;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+    font-size: 2rem;
 }
