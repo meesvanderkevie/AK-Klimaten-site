@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-section {
+div {
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    border-radius: 7px;
+    margin-top: 5em;
 }
 
 h1 {
@@ -41,6 +43,8 @@ button {
     background-color: #12acff;
     border-radius: 7px;
     border: 1px solid #12acff;
+    margin-top: 10px;
+    margin-bottom: 10px;
     transition: all 0.5s ease-in-out;
 }
 
